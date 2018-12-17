@@ -1,0 +1,148 @@
+/*
+  tab list
+*/
+.content-tab-li{
+    width: 33.33%;
+}
+/*
+    tab1,tab2,tab3
+*/
+.card-text{
+  font-weight: bold;
+}
+/* iPhone 縦 */
+@media screen and (min-width:320px) {
+.content-tab1{
+    text-align: center;
+}
+.content-tab1-col1{
+    width: 70%;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+.content-tab1-col2{
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    display: inline-block;
+}
+.content-tab2{
+    text-align: center;
+}
+.content-tab2-col1{
+    width: 70%;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+.content-tab2-col2{
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    display: inline-block;
+}
+.content-tab3{
+    text-align: center;
+}
+.content-tab3-col1{
+    width: 70%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    display: inline-block;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/*　for iPad 　*/
+.content-tab1{
+    text-align: center;
+}
+.content-tab1-col1{
+    width: 70%;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+.content-tab1-col2{
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    display: inline-block;
+}
+.content-tab2{
+    text-align: center;
+}
+.content-tab2-col1{
+    width: 70%;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+.content-tab2-col2{
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    display: inline-block;
+}
+.content-tab3{
+    text-align: center;
+}
+.content-tab3-col1{
+    width: 70%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    display: inline-block;
+}
+}
+@media screen and (min-width:1024px) {
+/*　for PC　*/
+.content-tab1{
+    text-align: center;
+}
+.content-tab1-col1{
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 2%;
+    display: inline-block;
+}
+.content-tab1-col2{
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    display: inline-block;
+}
+.content-tab2{
+    text-align: center;
+}
+.content-tab2-col1{
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 2%;
+    display: inline-block;
+}
+.content-tab2-col2{
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 2%;
+    display: inline-block;
+}
+.content-tab3{
+    text-align: center;
+}
+.content-tab3-col1{
+    width: 40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+}
+/*
+    card
+*/
+.card-body > form > button, .card-body > button{
+    font-weight: bold;
+}

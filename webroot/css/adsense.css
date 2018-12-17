@@ -1,0 +1,13 @@
+.content-ad-top{
+  display: inline-block;
+  height: 90px;
+  width: 100%;
+  text-align: center;
+}
+.content-ad-bottom{
+  display: inline-block;
+  height: 90px;
+  width: 100%;
+  margin-top: 1%;
+  text-align: center;
+}

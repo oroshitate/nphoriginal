@@ -1,0 +1,112 @@
+/*
+  tab list
+*/
+.content-tab-li{
+    width: 50%;
+}
+/*
+    tab1
+*/
+.content-tab1{
+    height: 100%;
+    text-align: center;
+}
+.table-item-title,.table-item-title:hover{
+  color: #ff3a3a;
+}
+.content-tab1-title{
+    margin-top: 1.5%;
+    display: inline-block;
+}
+.content-tab1-table{
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+@media screen and (min-width:375px){
+/* iPhone 縦 */
+.content-tab1-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad */
+.content-tab1-title h1{
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+}
+@media screen and (min-width:1024px) {
+/* for PC */
+.content-tab1-title h1{
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+}
+.content-tab1-title p{
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+}
+/*
+    tab2
+*/
+.content-tab2{
+    height: 100%;
+}
+.content-tab2-title{
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    display: inline-block;
+}
+@media screen and (min-width:375px){
+/* iPhone 縦 */
+.content-tab2-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad */
+.content-tab2-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+}
+@media screen and (min-width:1024px) {
+/* for PC */
+.content-tab2-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+}
+/*
+  table
+*/
+#recommend-list-table_filter > label > input[type="search"]{
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #6a757e;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+  background: none;
+  color: none;
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active{
+  background: none;
+  color: none;
+  border: none !important;
+  background-color: #6a757e !important;
+  color: #ffffff !important;
+}

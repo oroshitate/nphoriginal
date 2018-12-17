@@ -1,0 +1,136 @@
+/*
+  tab list
+*/
+.content-tab-li{
+    width: 50%;
+}
+/*
+    tab1
+*/
+.content-tab1{
+    height: 100%;
+    text-align: center;
+}
+.content-tab1-title{
+    margin-top: 1.5%;
+    padding-right: 5%;
+    display: inline-block;
+}
+.content-tab1-table{
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+@media screen and (min-width:320px){
+/* iPhone 縦 */
+.content-tab1-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad */
+.content-tab1-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+}
+@media screen and (min-width:1024px) {
+/* for PC */
+.content-tab1-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+}
+/*
+    tab2
+*/
+span.table-item-title{
+    color: #00a5e1;
+}
+span.table-item-title:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #00a5e1;
+}
+.content-tab2-title{
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    display: inline-block;
+    text-align: center;
+}
+@media screen and (min-width:320px){
+/* iPhone 縦 */
+.content-tab2{
+    height: 100%;
+    margin-bottom: 20%;
+}
+.content-tab2-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad */
+.content-tab2{
+    height: 100%;
+    margin-bottom: 17%;
+}
+.content-tab2-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+}
+@media screen and (min-width:1024px) {
+/* for PC */
+.content-tab2{
+    height: 100%;
+    margin-bottom: 9%;
+}
+.content-tab2-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+}
+.content-tab2-title #avg-review-rate{
+    display: inline-block;
+    padding: 0;
+}
+.content-tab2-elements{
+    margin-bottom: 2%;
+    text-align: center;
+}
+.content-tab2-element{
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 1.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    background-color: #444444;
+    width: auto;
+}
+.content-tab2-element button{
+    font-weight :bold;
+}
+.content-tab2-element span{
+    color: #ffffff;
+    font-weight :bold;
+}
+.content-tab2-topic{
+    margin-bottom: 1%;
+}
+.content-tab2-topic > span{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #00a5e1;
+}
+.tab2-topic-element{
+    display: inline-block;
+}

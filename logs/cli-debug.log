@@ -1,0 +1,161 @@
+2018-11-13 16:56:04 Notice: Notice (8): Undefined index: Threads in [/Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238
+Twig_Template::getAttribute() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 679
+__TwigTemplate_35666dac23fe7a1fbc2a20a3d66777d37f7584bac3ef5026c0e98e27c8c1aedd::doDisplay() - ROOT/tmp/cache/twigView/89/8994dedd2dd494a69f27c39d3fb5bfcd5f745210c24e38e33bbaddaee4215bdf.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 432
+Twig_Template::display() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 403
+Twig_Template::render() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 971
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 101
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-11-13 23:02:38 Notice: Notice (8): Undefined index: Users in [/Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238
+Twig_Template::getAttribute() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 679
+__TwigTemplate_35666dac23fe7a1fbc2a20a3d66777d37f7584bac3ef5026c0e98e27c8c1aedd::doDisplay() - ROOT/tmp/cache/twigView/89/8994dedd2dd494a69f27c39d3fb5bfcd5f745210c24e38e33bbaddaee4215bdf.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 432
+Twig_Template::display() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 403
+Twig_Template::render() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 971
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 101
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-11-13 23:03:06 Notice: Notice (8): Undefined index: Threads in [/Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238
+Twig_Template::getAttribute() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 679
+__TwigTemplate_35666dac23fe7a1fbc2a20a3d66777d37f7584bac3ef5026c0e98e27c8c1aedd::doDisplay() - ROOT/tmp/cache/twigView/89/8994dedd2dd494a69f27c39d3fb5bfcd5f745210c24e38e33bbaddaee4215bdf.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 432
+Twig_Template::display() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 403
+Twig_Template::render() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 971
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 101
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-11-20 17:17:45 Notice: Notice (8): Undefined index: Items in [/Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238
+Twig_Template::getAttribute() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 679
+__TwigTemplate_35666dac23fe7a1fbc2a20a3d66777d37f7584bac3ef5026c0e98e27c8c1aedd::doDisplay() - ROOT/tmp/cache/twigView/89/8994dedd2dd494a69f27c39d3fb5bfcd5f745210c24e38e33bbaddaee4215bdf.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 432
+Twig_Template::display() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 403
+Twig_Template::render() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 971
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 101
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-11-21 15:05:36 Notice: Notice (8): Undefined index: Items in [/Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238
+Twig_Template::getAttribute() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 679
+__TwigTemplate_35666dac23fe7a1fbc2a20a3d66777d37f7584bac3ef5026c0e98e27c8c1aedd::doDisplay() - ROOT/tmp/cache/twigView/89/8994dedd2dd494a69f27c39d3fb5bfcd5f745210c24e38e33bbaddaee4215bdf.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 432
+Twig_Template::display() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 403
+Twig_Template::render() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 971
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 101
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-11-22 16:26:45 Notice: Notice (8): Undefined index: Items in [/Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238
+Twig_Template::getAttribute() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 679
+__TwigTemplate_35666dac23fe7a1fbc2a20a3d66777d37f7584bac3ef5026c0e98e27c8c1aedd::doDisplay() - ROOT/tmp/cache/twigView/89/8994dedd2dd494a69f27c39d3fb5bfcd5f745210c24e38e33bbaddaee4215bdf.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 432
+Twig_Template::display() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 403
+Twig_Template::render() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 971
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 101
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2018-11-22 16:28:47 Notice: Notice (8): Undefined index: Items in [/Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Bake\View\Helper\DocBlockHelper::buildTableAnnotations() - ROOT/vendor/cakephp/bake/src/View/Helper/DocBlockHelper.php, line 238
+Twig_Template::getAttribute() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 679
+__TwigTemplate_35666dac23fe7a1fbc2a20a3d66777d37f7584bac3ef5026c0e98e27c8c1aedd::doDisplay() - ROOT/tmp/cache/twigView/89/8994dedd2dd494a69f27c39d3fb5bfcd5f745210c24e38e33bbaddaee4215bdf.php, line 22
+Twig_Template::displayWithErrorHandling() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 432
+Twig_Template::display() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 403
+Twig_Template::render() - ROOT/vendor/twig/twig/lib/Twig/Template.php, line 411
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 180
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 971
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 101
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+

@@ -1,0 +1,142 @@
+/*
+  tab list
+*/
+.content-tab-li{
+    width: 50%;
+}
+/*
+    tab1
+*/
+.content-tab1{
+    height: 100%;
+}
+.review-title,.review-title:hover{
+  color: #5ac82f;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+.content-tab1-title{
+    margin-top: 1.5%;
+    display: inline-block;
+}
+@media screen and (min-width:320px){
+/* iPhone 縦 */
+.content-tab1-title h1{
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+input[name="search-review"]{
+    width: 45%;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad */
+.content-tab1-title h1{
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+input[name="search-review"]{
+    width: 30%;
+}
+}
+@media screen and (min-width:1024px) {
+/* for PC */
+.content-tab1-title h1{
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+input[name="search-review"]{
+    width: 20%;
+}
+}
+/*
+    review
+*/
+.review-search-box{
+    text-align: right;
+    margin-right: 3%;
+}
+.review-search-box input{
+    outline: 0;
+    border: 2px solid #6a757e;
+    border-radius: 5px;
+}
+.search-review-btn-submit{
+  font-weight: bold;
+}
+.list-btn-submit{
+  font-weight: bold;
+}
+.review-list-item{
+    margin-left: 3%;
+    border: none;
+    text-align: left;
+}
+.review-list-item > p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.review-list-item pre{
+    font-size: 1rem;
+    font-weight: bold;
+    white-space: pre-wrap;
+    margin-bottom: 1%;
+}
+.review-list-item div{
+    margin-bottom: 1%;
+    padding: 0;
+}
+/*
+    tab2
+*/
+.content-tab2{
+    height: 100%;
+    text-align: center;
+}
+.table-item-title,.table-item-title:hover{
+  color: #5ac82f;
+}
+.content-tab2-title{
+    margin-top: 1.5%;
+    display: inline-block;
+}
+.content-tab2-table{
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+@media screen and (min-width:320px){
+/* iPhone 縦 */
+.content-tab2-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad */
+.content-tab2-title h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+}
+@media screen and (min-width:1024px) {
+/* for PC */
+.content-tab2-title h1{
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+}
+.content-tab2-title p{
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+}

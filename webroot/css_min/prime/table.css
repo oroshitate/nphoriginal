@@ -1,0 +1,35 @@
+/*
+  table
+*/
+/*
+  search box
+*/
+#item-list-table_filter > label > input[type="search"]{
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #6a757e;
+}
+/*
+  table border
+*/
+#item-list-table,#new-item-list-table,#recommend-list-table{
+  border: none;
+}
+/*
+  button
+*/
+.dataTables_wrapper .dataTables_paginate .paginate_button.current{
+  background: none;
+  background-color: #b2b2b2 !important;
+  border: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+  background: none;
+  background-color: #262626 !important;
+  border: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+  background: none;
+  background-color: #cccccc !important;
+  border: none;
+}

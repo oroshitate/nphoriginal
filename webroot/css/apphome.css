@@ -1,0 +1,449 @@
+/*
+    card
+*/
+/*
+    site about
+*/
+@media screen and (min-width:320px){
+/* iPhone 縦 */
+.content-about-box{
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+.content-about-h1{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.7rem;
+}
+.content-about-h2{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 7%;
+}
+.content-about{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad */
+.content-about-box{
+    margin-top: 20%;
+    margin-bottom: 11%;
+}
+.content-about-h1{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+.content-about-h2{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.7rem;
+    margin-bottom: 2%;
+}
+.content-about{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1rem;
+}
+}
+@media screen and (min-width:1024px) {
+/* for PC */
+.content-about-box{
+    margin-top: 15%;
+    margin-bottom: 11%;
+}
+.content-about-h1{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+.content-about-h2{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.7rem;
+    margin-bottom: 2%;
+}
+.content-about{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1rem;
+}
+}
+/*
+    content
+*/
+@media screen and (min-width:320px){
+/* iPhone 縦 */
+.content{
+}
+.content-menu{
+  width: 90%;
+  display: inline-block;
+  text-align: center;
+}
+.card{
+  width: 28%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
+  display: inline-block;
+  border: none;
+}
+.card-body{
+  padding: 1rem;
+}
+.card-body a{
+  font-weight: bold;
+}
+.content-ad-top{
+  display: inline-block;
+  height: 90px;
+  width: 90%;
+  margin-bottom: 3%;
+}
+.content-ad-bottom{
+  display: inline-block;
+  height: 90px;
+  width: 90%;
+  margin-bottom: 10%;
+}
+.content-board{
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-thread-list a{
+    color: #171717;
+}
+.thread-search,.thread-list{
+    font-weight: bold;
+}
+.content-news{
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-review{
+    display: inline-block;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-title{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.netflix-item-review-title,.netflix-item-review-title:hover{
+  color: #ff3a3a;
+  font-weight: bold;
+  width: 100%;
+}
+.hulu-item-review-title,.hulu-item-review-title:hover{
+  color: #5ac82f;
+  font-weight: bold;
+  width: 100%;
+}
+.prime-item-review-title,.prime-item-review-title:hover{
+  color: #00a5e1;
+  font-weight: bold;
+  width: 100%;
+}
+.content-thread-list{
+    margin-top: 1%;
+}
+.content-news-list{
+    margin-top: 1%;
+}
+.content-review-list{
+    margin-top: 1%;
+}
+.content-list-item{
+    margin-bottom: 1.5%;
+    background: #ffffff;
+    border: none;
+}
+.item-thread-date{
+    margin-right: 2%;
+}
+.item-comment-count{
+  float: right;
+}
+#search-thread{
+    width: 50%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 1%;
+}
+.item-news-date{
+    margin-right: 2%;
+}
+.content-list-item pre{
+    font-weight: bold;
+    white-space: pre-wrap;
+    margin-bottom: 1%;
+}
+.content-list-item p{
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.content-list-item span{
+    font-weight: bold;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad */
+.content{
+}
+.content-menu{
+  width: 70%;
+  display: inline-block;
+  text-align: center;
+}
+.card{
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
+  display: inline-block;
+  border: none;
+}
+.card-body{
+  padding: 1rem;
+}
+.card-body a{
+  font-weight: bold;
+}
+.content-ad-top{
+  display: inline-block;
+  height: 90px;
+  width: 70%;
+  margin-bottom: 3%;
+}
+.content-ad-bottom{
+  display: inline-block;
+  height: 90px;
+  width: 70%;
+  margin-bottom: 10%;
+}
+.content-board{
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-thread-list a{
+    color: #171717;
+}
+.thread-search,.thread-list{
+    font-weight: bold;
+}
+.content-news{
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-review{
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-title{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.content-thread-list{
+    margin-top: 1%;
+}
+.content-news-list{
+    margin-top: 1%;
+}
+.content-review-list{
+    margin-top: 1%;
+}
+.content-list-item{
+    margin-bottom: 1.5%;
+    background: #ffffff;
+    border: none;
+}
+.item-thread-date{
+    margin-right: 2%;
+}
+#search-thread{
+    width: 30%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 1%;
+}
+.item-news-date{
+    margin-right: 2%;
+}
+.content-list-item pre{
+    font-weight: bold;
+    white-space: pre-wrap;
+    margin-bottom: 1%;
+}
+.content-list-item p{
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.content-list-item span{
+    font-weight: bold;
+}
+}
+@media screen and (min-width:1024px) {
+/* for PC */
+.content{
+}
+.content-menu{
+  width: 70%;
+  display: inline-block;
+  text-align: center;
+}
+.card{
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
+  display: inline-block;
+  border: none;
+}
+.card-body{
+  padding: 1rem;
+}
+.card-body a{
+  font-weight: bold;
+}
+.content-ad-top{
+  display: inline-block;
+  height: 90px;
+  width: 70%;
+  margin-bottom: 3%;
+}
+.content-ad-bottom{
+  display: inline-block;
+  height: 90px;
+  width: 70%;
+  margin-bottom: 10%;
+}
+.content-board{
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-thread-list a{
+    color: #171717;
+}
+.thread-search,.thread-list{
+    font-weight: bold;
+}
+.content-news{
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-review{
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-title{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.content-thread-list{
+    margin-top: 1%;
+}
+.content-news-list{
+    margin-top: 1%;
+}
+.content-review-list{
+    margin-top: 1%;
+}
+.content-list-item{
+    margin-bottom: 1.5%;
+    background: #ffffff;
+    border: none;
+}
+.item-thread-date{
+    margin-right: 2%;
+}
+#search-thread{
+    width: 30%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 1%;
+}
+.item-news-date{
+    margin-right: 2%;
+}
+.content-list-item pre{
+    font-weight: bold;
+    white-space: pre-wrap;
+    margin-bottom: 1%;
+}
+.content-list-item p{
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.content-list-item span{
+    font-weight: bold;
+}
+}
+/*
+    link
+*/
+a:focus{
+    outline: none;
+}
+.service-netflix{
+    color: #ff3a3a;
+}
+.service-prime{
+    color: #00a5e1;
+}
+.service-hulu{
+    color: #5ac82f;
+}
+.service-netflix:hover{
+    color: #ff3a3a;
+}
+.service-prime:hover{
+    color: #00a5e1;
+}
+.service-hulu:hover{
+    color: #5ac82f;
+}
+.item-thread-title{
+    color: #000000;
+    font-weight: bold;
+}
+/*
+    review
+*/
+.new-review{
+    padding: 0%;
+    margin-top: 1.2%;
+    margin-bottom: 2%;
+}
+.item-review-title{
+    font-weight: bold;
+    font-size: 1.3rem;
+}

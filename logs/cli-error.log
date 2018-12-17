@@ -1,0 +1,72 @@
+2018-11-07 03:57:43 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'app_db.home' doesn't exist in /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'home', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('home', Array)
+#2 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/ORM/Table.php(555): Cake\Database\Schema\CachedCollection->describe('home')
+#3 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/ORM/Table.php(680): Cake\ORM\Table->getSchema()
+#4 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#5 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'home', 'Home')
+#7 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Home')
+#8 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\ModelTask->main('Home')
+#9 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 /Applications/MAMP/htdocs/NPHoriginal/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+2018-11-07 03:57:55 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'app_db.homes' doesn't exist in /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'homes', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('homes', Array)
+#2 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/ORM/Table.php(555): Cake\Database\Schema\CachedCollection->describe('homes')
+#3 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/ORM/Table.php(680): Cake\ORM\Table->getSchema()
+#4 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#5 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'homes', 'Homes')
+#7 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Homes')
+#8 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\ModelTask->main('Homes')
+#9 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 /Applications/MAMP/htdocs/NPHoriginal/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+2018-11-07 03:58:21 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'app_db.users' doesn't exist in /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'users', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('users', Array)
+#2 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/ORM/Table.php(555): Cake\Database\Schema\CachedCollection->describe('users')
+#3 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/ORM/Table.php(680): Cake\ORM\Table->getSchema()
+#4 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#5 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'users', 'Users')
+#7 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Users')
+#8 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\ModelTask->main('Users')
+#9 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 /Applications/MAMP/htdocs/NPHoriginal/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+
+2018-11-07 04:12:54 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'app_db.reviews' doesn't exist in /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'reviews', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('reviews', Array)
+#2 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/ORM/Table.php(555): Cake\Database\Schema\CachedCollection->describe('reviews')
+#3 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/ORM/Table.php(680): Cake\ORM\Table->getSchema()
+#4 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#5 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'reviews', 'Reviews')
+#7 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Reviews')
+#8 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\ModelTask->main('reviews')
+#9 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/MAMP/htdocs/NPHoriginal/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#12 /Applications/MAMP/htdocs/NPHoriginal/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#13 {main}
+
+

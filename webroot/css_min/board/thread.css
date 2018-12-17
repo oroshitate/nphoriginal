@@ -1,0 +1,701 @@
+/*
+    html,body
+*/
+html,body{
+    height: 100%;
+    width: 100%;
+    background: -moz-linear-gradient(left,#ff3a3a,#00a5e1 50%,#5ac82f);
+    background: -webkit-linear-gradient(left,#ff3a3a,#00a5e1 50%,#5ac82f);
+    background: linear-gradient(left,#ff3a3a,#00a5e1 50%,#5ac82f);
+}
+.header{
+    background: #000000;
+    outline: none;
+    width: 100%;
+    position: fixed;
+    top: 0;/*基準を画面の左上に*/
+    z-index: 100;
+}
+.move-board-page{
+    position: fixed;
+    top: 1.6%;
+    left: 1.3%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.9%;
+    padding-right: 0.9%;
+    border: 1px solid #171717;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.move-board-page i{
+    font-size: 2rem;
+    color: #7c7c7c;
+}
+.header-menu{
+    width: 100%;
+    text-align: center;
+}
+.header-menu a:hover{
+    color: #ff3a3a;
+    text-decoration: none;
+}
+.header-div{
+    width: 100%;
+    display: flex;
+    justify-content: center; /* 子要素を中央揃え */
+    position: relative;
+}
+#header-title{
+    color: #ffffff;
+    margin-right: 0%;
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+#navbar-button{
+    outline: 0;
+    position: absolute;
+    right: 0; /* 右寄せ */
+}
+#nav-items{
+    text-align: center;
+}
+#nav-item-netflix{
+    color: #ff3a3a;
+}
+a#nav-item-netflix:hover{
+    background-color: #ff3a3a;
+    color: #ffffff;
+}
+#nav-item-prime{
+    color: #00a5e1;
+}
+a#nav-item-prime:hover{
+    background-color: #00a5e1;
+    color: #ffffff;
+}
+#nav-item-hulu{
+    color: #5ac82f;
+}
+a#nav-item-hulu:hover{
+    background-color: #5ac82f;
+    color: #ffffff;
+}
+#nav-item-home{
+    color: #6a757e;
+}
+a#nav-item-home:hover{
+    background-color: #6a757e;
+    color: #ffffff;
+}
+/*
+    inner
+*/
+@media screen and (min-width:375px){
+/* iPhone 縦 */
+.inner{
+    position: absolute;
+    top: 14%;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+}
+}
+@media screen and (min-width:667px) and (max-width:768px) {
+/* iPhone 横 */
+.inner{
+    position: absolute;
+    top: 20%;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad 縦 */
+.inner{
+    position: absolute;
+    top: 14%;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad 横 */
+.inner{
+    position: absolute;
+    top: 14%;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+}
+}
+@media screen and (min-width:1024px) {
+/* for PC */
+.inner{
+    position: absolute;
+    top: 14%;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+}
+}
+/*
+    content
+*/
+@media screen and (min-width:375px){
+/* iPhone 縦 */
+.content{
+    display: inline-block;
+    width: 90%;
+    margin-bottom: 30%;
+}
+.content-board{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-board a{
+    color: #171717;
+}
+.content-title{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+}
+.board-header{
+    text-align: right;
+}
+.board-header-title{
+    text-align: center;
+}
+.board-header button{
+    font-weight: bold;
+}
+#search-thread{
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 1%;
+}
+.board-body{
+    background-color: #ffffff;
+}
+.board-title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1%;
+}
+.board-title h1{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.board-name{
+    text-align: right;
+}
+.board-name span{
+    font-weight: bold;
+    margin-right: 3%;
+}
+.content-thread-list{
+    margin-top: 1%;
+}
+.comment-count{
+  text-align: right;
+}
+.comment-count span{
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-right: 3%;
+}
+.thread-list-item{
+    background: #ffffff;
+    border: none;
+}
+.thread-list-item pre{
+    font-weight: bold;
+    white-space: pre-wrap;
+    margin-bottom: 1%;
+}
+.thread-list-item p{
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.thread-list-item span{
+    font-weight: bold;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad */
+.content{
+    display: inline-block;
+    width: 90%;
+    margin-bottom: 30%;
+}
+.content-board{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-board a{
+    color: #171717;
+}
+.content-title{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+}
+.board-header{
+    text-align: right;
+}
+.board-header-title{
+    text-align: center;
+}
+.board-header button{
+    font-weight: bold;
+}
+#search-thread{
+    width: 30%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 1%;
+}
+.board-body{
+    background-color: #ffffff;
+}
+.board-title{
+    text-align: center;
+    margin-top: 1%;
+}
+.board-title h1{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.board-name{
+    text-align: right;
+}
+.board-name span{
+    font-weight: bold;
+    margin-right: 3%;
+}
+.content-thread-list{
+    margin-top: 1%;
+}
+.comment-count{
+  text-align: right;
+}
+.comment-count span{
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-right: 3%;
+}
+.thread-list-item{
+    background: #ffffff;
+    border: none;
+    padding: none;
+    margin-left: 1.5%;
+}
+.thread-list-item pre{
+    font-weight: bold;
+    white-space: pre-wrap;
+    margin-bottom: 1%;
+}
+.thread-list-item p{
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.thread-list-item span{
+    font-weight: bold;
+}
+}
+@media screen and (min-width:1024px) {
+/* for PC */
+.content{
+    display: inline-block;
+    width: 90%;
+    margin-bottom: 30%;
+}
+.content-board{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 3%;
+}
+.content-board a{
+    color: #171717;
+}
+.content-title{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+}
+.board-header{
+    text-align: right;
+}
+.board-header-title{
+    text-align: center;
+}
+.board-header button{
+    font-weight: bold;
+}
+#search-thread{
+    width: 20%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-right: 1%;
+}
+.board-body{
+    background-color: #ffffff;
+}
+.board-title{
+    text-align: center;
+    margin-top: 1%;
+}
+.board-title h1{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.board-name{
+    text-align: right;
+}
+.board-name span{
+    font-weight: bold;
+    margin-right: 3%;
+}
+.content-thread-list{
+    margin-top: 1%;
+}
+.comment-count{
+  text-align: right;
+}
+.comment-count span{
+    font-weight: bold;
+    margin-bottom: 1%;
+    margin-right: 3%;
+}
+.thread-list-item{
+    background: #ffffff;
+    border: none;
+    padding: none;
+    margin-left: 1.5%;
+}
+.thread-list-item pre{
+    font-weight: bold;
+    white-space: pre-wrap;
+    margin-bottom: 1%;
+}
+.thread-list-item p{
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.thread-list-item span{
+    font-weight: bold;
+}
+}
+/*
+    link
+*/
+a:focus{
+    outline: none;
+}
+/*
+    footer
+*/
+/*
+    footer
+*/
+.footer-insert-thread{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #303030;
+    z-index: 100;
+    display: flex;
+}
+.footer-insert-thread > span{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    flex:0 1 auto;
+    margin:auto;
+    padding: 0;
+}
+@media screen and (min-width:375px){
+/* iPhone 縦 */
+.footer-parent{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52%;
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.85);
+    z-index: 100;
+    text-align: left;
+}
+.footer-commenter{
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.footer-comment{
+    margin-left: 10%;
+    margin-right: 13%;
+    margin-bottom: 6%;
+    height: 40%;
+}
+.footer-commenter input{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 50%;
+}
+.footer-comment textarea{
+    outline: none;
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+}
+}
+@media screen and (min-width:667px) and (max-width:768px) {
+/* iPhone 横 */
+.footer-parent{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.85);
+    z-index: 100;
+    text-align: left;
+}
+.footer-commenter{
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-bottom: 1%;
+}
+.footer-comment{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1%;
+    height: 40%;
+}
+.footer-commenter input{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 30%;
+}
+.footer-comment textarea{
+    outline: none;
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad */
+.footer-parent{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.85);
+    z-index: 100;
+    text-align: left;
+}
+.footer-commenter{
+    margin-top: 4%;
+    margin-left: 12%;
+    margin-bottom: 2%;
+}
+.footer-comment{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 4%;
+    height: 40%;
+}
+.footer-commenter input{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 30%;
+}
+.footer-comment textarea{
+    outline: none;
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+}
+}
+@media screen and (min-width:1024px) and (max-width:1172px) {
+/* for iPad 横 */
+.footer-parent{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 36%;
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.85);
+    z-index: 100;
+    text-align: left;
+}
+.footer-commenter{
+    margin-top: 2%;
+    margin-left: 12%;
+    margin-bottom: 1%;
+}
+.footer-comment{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 2%;
+    height: 40%;
+}
+.footer-commenter input{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 30%;
+}
+.footer-comment textarea{
+    outline: none;
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+}
+}
+@media screen and (min-width:1172px) {
+/* for PC */
+.footer-parent{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 45%;
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.85);
+    z-index: 100;
+    text-align: left;
+}
+.footer-commenter{
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-bottom: 0.5%;
+}
+.footer-comment{
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    height: 40%;
+}
+.footer-commenter input{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 30%;
+}
+.footer-comment textarea{
+    outline: none;
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+}
+}
+.footer-btn-close{
+    margin-right: 1%;
+    float: right;
+}
+.footer-btn{
+    text-align: center;
+}
+.footer-btn button{
+    padding: 0.5%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/*
+    move to top
+*/
+.content-page-top
+{
+    position: fixed;
+    right: 1%;
+    bottom: 10%;
+    padding: 1%;
+    display: none;
+    background-color: #000000;
+    z-index: 50;
+}
+.content-page-top p
+{
+	margin: 0 ;
+	padding: 0 ;
+}
+.move-page-top
+{
+    cursor: pointer;
+	display: block ;
+	width: 5% ;
+	height: 5% ;
+
+	line-height: 5% ;
+	text-decoration: none ;
+	text-align: center ;
+
+	-webkit-transition:all 0.3s ;
+	-moz-transition:all 0.3s ;
+	transition:all 0.3s ;
+}
+#move-page-top > i{
+    color: #ffffff;
+}
+.move-page-top:hover
+{
+	opacity: 0.85 ;
+}

@@ -1,0 +1,249 @@
+/*
+    review
+*/
+#item-review-count{
+    text-align: right;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+#item-review-count > span{
+    color: #ff3a3a;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.review-list-item{
+    text-align: left;
+    border: none;
+    margin-left: 2.5%;
+}
+.review-list-item > p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.review-list-item pre{
+    font-size: 1rem;
+    font-weight: bold;
+    white-space: pre-wrap;
+    margin-bottom: 1%;
+}
+.review-list-item div{
+    margin-bottom: 1%;
+    padding: 0;
+}
+/*
+    footer
+*/
+.footer-insert-review{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #ff3a3a;
+    z-index: 100;
+    display: flex;
+}
+.footer-insert-review > span{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    flex:0 1 auto;
+    margin:auto;
+    padding: 0;
+}
+@media screen and (min-width:375px){
+/* iPhone 縦 */
+.footer-parent{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52%;
+    width: 100%;
+    background-color: rgba(255, 58, 58, 0.85);
+    z-index: 100;
+    text-align: left;
+}
+.footer-rate{
+    text-align: center;
+    padding-left: 9%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+.footer-name{
+    margin-left: 10%;
+    margin-bottom: 2%;
+    width: 40%;
+}
+.footer-review{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4%;
+    height: 40%;
+}
+}
+@media screen and (min-width:667px) and (max-width:768px) {
+/* iPhone 横 */
+.footer-parent{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 75%;
+    width: 100%;
+    background-color: rgba(255, 58, 58, 0.85);
+    z-index: 100;
+    text-align: left;
+}
+.footer-rate{
+    padding-left: 7%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+.footer-name{
+    margin-left: 15%;
+    margin-bottom: 1%;
+    width: 30%;
+}
+.footer-review{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    height: 40%;
+}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+/* for iPad */
+.footer-parent{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 28%;
+    width: 100%;
+    background-color: rgba(255, 58, 58, 0.85);
+    z-index: 100;
+    text-align: left;
+}
+.footer-rate{
+    text-align: center;
+    padding-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+.footer-name{
+    margin-left: 12%;
+    margin-bottom: 1%;
+    width: 30%;
+}
+.footer-review{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 2%;
+    height: 40%;
+}
+}
+@media screen and (min-width:1024px) and (max-width:1172px) {
+/* for iPad 横 */
+.footer-parent{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    width: 100%;
+    background-color: rgba(255, 58, 58, 0.85);
+    z-index: 100;
+    text-align: left;
+}
+.footer-rate{
+    text-align: center;
+    padding-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+.footer-name{
+    margin-left: 12%;
+    margin-bottom: 1%;
+    width: 30%;
+}
+.footer-review{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 1%;
+    height: 40%;
+}
+}
+@media screen and (min-width:1172px) {
+/* for PC */
+.footer-parent{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 55%;
+    width: 100%;
+    background-color: rgba(255, 58, 58, 0.85);
+    z-index: 100;
+    text-align: left;
+}
+.footer-rate{
+    text-align: center;
+    padding-left: 4%;
+    margin-top: 1.25%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+.footer-name{
+    margin-left: 25%;
+    margin-bottom: 0.5%;
+    width: 30%;
+}
+.footer-review{
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 1.25%;
+    height: 40%;
+}
+}
+.footer-btn-close{
+    margin-right: 1%;
+    float: right;
+}
+.footer-rate > div{
+    display: inline-block;
+}
+.footer-name input{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+.footer-review textarea{
+    outline: none;
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+}
+.footer-btn{
+    text-align: center;
+}
+.footer-btn button{
+    padding: 0.5%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
